@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StorifyMe",
-            url: "https://sdk.dev.storifyme.com/ios/2.4.14/StorifyMe.zip",
-            checksum: "24467ba1212f598eb7ceb690234bd7d17f0bc14d80769f9c3ce3c51ca8c2fd60"
+            url: "https://sdk.dev.storifyme.com/ios/2.4.15/StorifyMe.zip",
+            checksum: "1fc63fb8681ba4739b2a8d68f8004a118e653d58c451bb5c08587f86c51db554"
         )
     ],
     swiftLanguageVersions: [.v5]
