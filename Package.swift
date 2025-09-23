@@ -1,25 +1,14 @@
-// swift-tools-version:5.3
+<!DOCTYPE html>
+<html lang="en">
 
-import PackageDescription
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StorifyMe</title>
+</head>
 
-let package = Package(
-    name: "StorifyMe",
-    platforms: [
-        .iOS(.v11)
-    ],
-    products: [
-        .library(
-            name: "StorifyMe",
-            targets: ["StorifyMe"]
-        )
-    ],
-    dependencies: [],
-    targets: [
-        .binaryTarget(
-            name: "StorifyMe",
-            url: "https://sdk.dev.storifyme.com/ios/2.5.0/StorifyMe.zip",
-            checksum: "eadac7fb2396b790f9f7b3e6bd32324626fb4452134052949382630f860c56d3"
-        )
-    ],
-    swiftLanguageVersions: [.v5]
-)
+<body>
+</body>
+
+</html>
