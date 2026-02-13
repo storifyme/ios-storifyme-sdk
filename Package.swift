@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "StorifyMe",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StorifyMe",
-            url: "https://sdk.storifyme.com/ios/2.5.7/StorifyMe.zip",
-            checksum: "dad8a7cd1449c8217471dfba779231ce18bf3dc58da026c446a1a24cd2e32cac"
+            url: "https://sdk.storifyme.com/ios/2.6.0/StorifyMe.zip",
+            checksum: "52d72d1f2905e6cb9f3383e4047a4a1662565412f81b8a1193679bfd1c05f0a7"
         )
     ],
     swiftLanguageVersions: [.v5]
