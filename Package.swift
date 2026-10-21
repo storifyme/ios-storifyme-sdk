@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "StorifyMe",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StorifyMe",
-            url: "https://sdk.storifyme.com/ios/2.6.9/StorifyMe.zip",
-            checksum: "a29edec236df149b707ab7a75aec7512b8a614219bc2c926f36b92b7bcec4d19"
+            url: "https://sdk.storifyme.com/ios/3.0.0-beta.6/StorifyMe.zip",
+            checksum: "8343f76c33a087f0edbb40741c632bf6148db9da6bdcf863e8e2658729990b4e"
         )
     ],
     swiftLanguageVersions: [.v5]
